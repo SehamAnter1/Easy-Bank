@@ -1,0 +1,128 @@
+ @media(min-width:467px) {
+     .container {
+         width: 80%;
+     }
+ }
+
+ @media(max-width:1117px) {
+     .image {
+         height: 383.03px;
+         width: 51%;
+
+     }
+
+     .image:after {
+         content: "";
+         background: url(../../assets/image-mockups.png) no-repeat 147px -113px;
+         background-size: 92%;
+     }
+ }
+
+ @media(max-width:992px) {
+     .nextGen {
+         display: flex;
+         height: 50rem;
+         align-items: flex-end;
+     }
+
+     .nextGen .container .row {
+         /* height: 29rem; */
+         /* align-items: end; */
+         width: 90%;
+         text-align: center;
+         margin: auto;
+     }
+
+     .image {
+         height: 442.03px;
+         width: 90%;
+         background: url(../../assets/bg-intro-mobile.svg) no-repeat;
+         background-size: 90% 382%;
+         right: 0;
+         background-position: right;
+
+     }
+
+     .image:after {
+         content: "";
+         background-size: cover;
+         margin: auto;
+         background-position: bottom;
+         top: 0px;
+         width: inherit;
+         margin: auto !important;
+         height: 80vh;
+         position: absolute;
+     }
+
+ }
+
+ @media (max-width: 750px) {
+     .image {
+         height: 404.03px;
+         width: 100%;
+         background-size: 92% 244%;
+         right: 0;
+         background-position: right;
+     }
+
+     .image:after {
+         height: 74vh;
+     }
+ }
+
+
+ @media (max-width: 600px) {
+    .nextGen .container{
+        width: 95%;
+    }
+     .image {
+         height: 404.03px;
+         width: 100%;
+         background-size: 100% 244%;
+     }
+
+
+     .image:after {
+         height: 70vh;
+     }
+ }
+ @media (max-width: 410px) {
+
+    .nextGen h1 {
+        font-size: 32px;
+ }
+ .nextGen{
+    .container{
+    width: 100%;
+}
+.row{
+    width: 100;
+}
+}
+}
+
+@media (max-width: 353px) {
+
+    .nextGen {
+        height: 52rem;
+    }
+}
+@media (max-width: 331px)   {
+    .nextGen {
+        height: 53rem;
+       
+    }
+}
+@media (max-width: 466px)   {
+   .navToggleItems{
+        display: grid;
+         gap: 0rem; 
+         align-items: normal;
+          left: 0px;
+   .navItems{
+        display: grid;
+        margin-left: unset!important;
+    }
+}
+}

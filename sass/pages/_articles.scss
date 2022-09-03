@@ -1,0 +1,42 @@
+.articles {
+   background-color: $Very_Light_Gray;
+   span{
+      color: $Grayish_Blue;
+      font-size: 12px;
+   }
+   p{
+      font-size: 13px;
+   }
+   .card{
+      height: 57vh;
+      margin: 1rem 0;
+      border: none;
+      .card-body{
+         width: 90%;
+         h5{
+            font-size: 16px;
+            color: $Dark_Blue;
+
+         }
+         .card-title:hover{
+            color: #2fc889;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+}
+      }
+   img{
+      height: 37%;
+      object-fit: cover;
+   }
+}
+h3{
+      text-transform: capitalize;
+      color: $Dark_Blue;
+      margin: 1rem 0;
+}
+   
+}
